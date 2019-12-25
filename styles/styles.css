@@ -1,0 +1,56 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: sans-serif;
+}
+.banner{
+	height: 100vh;
+	position: relative;
+}
+.slider{
+	width: 98%;
+	float: left;
+}
+
+.carousel-caption{
+	max-height: 350px;
+	max-width: 500px;
+	text-align: right;
+	right: 60px;
+	left: auto;
+	top: 160px;
+	background-color:#ffffff00;
+}
+.carousel-caption h1
+{
+	font-size: 70px;
+}
+.carousel-caption p
+{
+margin-top: 40px;
+}
+
+.carousel-indicators{
+	left: 85%;
+	height: 100%;
+	width: 29px;
+	top: 0%;
+	display: block;
+	color: black;
+	background-color: black;
+	padding-top: 400px;
+
+
+}
+.carousel-indicators li{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	margin-left: 5px;
+	margin-top: 15px;
+	background: transparent;
+	border: 2px solid white;
+}
